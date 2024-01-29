@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase 9 Eni </title>
+</head>
+<body>
+    <h1>Getting Started With Firebase 9</h1>
+    <h2>Firebase Firestore</h2>
+
+    <form class="add">
+        <label for ="title">Judul:</label>
+        <input type="text" name="title" required>
+        <label for ="author">Penulis:</label>
+        <input type="text" name="author" required>
+        <button>Add Books</button>
+    </form>
+
+    <form class="delete">
+        <label for ="id">Document ID:</label>
+        <input type="text" name="id" required>
+        <button>Delete Books </button>
+    </form>
+    <form class="update">
+        <label for ="id">Document ID:</label>
+        <input type="text" name="id" required>
+        <button>Update Books </button>
+    </form>
+
+
+    <h2>Firebase Auth</h2>
+    <form class="signup">
+        <label for ="email">Email :</label>
+        <input type="email" name="email" required>
+        <label for ="password">Password :</label>
+        <input type="password" name="password" required>
+        <button>Sign Up</button>
+    </form>
+
+    <h3>Login User - By Eni</h3>
+    <form class="login">
+        <label for ="email">Email :</label>
+        <input type="email" name="email" required>
+        <label for ="password">Password :</label>
+        <input type="password" name="password" required>
+        <button>login</button>
+    </form>
+    
+    <button class="logout">logout</button>
+
+    <h3>Unsubscribing</h3>
+    <button class="unsub">Unsubscribing From db/auth changes - By Eni</button>
+
+
+    <script src="bundle.js"></script>
+</body>
+</html>
